@@ -147,8 +147,7 @@ auto-link:nth-child(1) {
     display: flex;
     margin-bottom: 0;
     margin-left: auto;
-    margin-right: auto;
-    }
+            }
 .nav-link:nth-child(1) {
     margin-left: 93px;
 }
@@ -163,7 +162,7 @@ auto-link:nth-child(1) {
 .auto-nav-item {
     display: block;
     justify-content: flex-end;
-}
+    }
 
 .link {
   margin-bottom: 0px;
@@ -191,7 +190,24 @@ auto-link:nth-child(1) {
 margin-left: 0;
 margin-right: 0;
 }
+
+
+
+
 /* Hero */
+
+.hero-overlay {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: palegoldenrod;
+    background-image: linear-gradient(to right, black, grey);
+    url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+}
 .about-us section {
   
    padding-bottom: 108px;
@@ -549,4 +565,21 @@ margin-right: 0;
 }
 .primary-section {
   padding-top: 94px;
+}
+
+.auto-link {
+    color: var(--primary-text-color);
+}
+.auto-nav {
+    color: var(--primary-text-color);
+}
+
+.icon-link {
+    display: flex;
+    margin-right: 10px;
+    fill: var(--primary-text-color);
+}
+.link .auto-link:hover,
+.link .auto-link:focus {
+    color: var(--accent-color);
 }
