@@ -147,7 +147,7 @@ auto-link:nth-child(1) {
     display: flex;
     margin-bottom: 0;
     margin-left: auto;
-            }
+                }
 .nav-link:nth-child(1) {
     margin-left: 93px;
 }
@@ -193,7 +193,6 @@ margin-right: 0;
 
 
 
-
 /* Hero */
 
 .hero-overlay {
@@ -203,17 +202,21 @@ margin-right: 0;
     margin-right: auto;
     
     background-color: palegoldenrod;
-    background-image: linear-gradient(to right, black, grey);
-    url(../images/hero.jpg);
+    background-image: linear-gradient( 
+      to right,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("../images/hero.jpg");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .about-us section {
   
    padding-bottom: 108px;
   background-color: #e5e5e5;
- 
-}
+ }
 .about-us {
    padding-top: 94px;
   padding-bottom: 94px;
@@ -570,16 +573,13 @@ margin-right: 0;
 .auto-link {
     color: var(--primary-text-color);
 }
-.auto-nav {
-    color: var(--primary-text-color);
-}
 
 .icon-link {
     display: flex;
     margin-right: 10px;
     fill: var(--primary-text-color);
 }
-.link .auto-link:hover,
-.link .auto-link:focus {
-    color: var(--accent-color);
+.icon-link:hover,
+.icon-link:focus {
+  fill: var(--accent-color);
 }
