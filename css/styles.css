@@ -640,3 +640,45 @@ margin-right: 0;
   border-radius: 50%;
   cursor: pointer;
 }
+.clients{
+  display: block;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  width: 106px;
+  height: 60px;
+  background-color: ;
+}
+ .clients-title {
+
+   text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--title-text-color);
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+/*
+  
+ 
+ 
+ 
+  .section-item-text::before {
+  display: block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-color: var(--sub-background-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px 70px;  
+  margin-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 4px;
+  }
