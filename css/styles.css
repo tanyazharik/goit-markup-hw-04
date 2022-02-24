@@ -435,6 +435,34 @@ margin-right: 0;
        margin-left: 0;
        border-bottom: 0;
    }
+
+
+.section-item-text::before {
+  display: block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-color: var(--sub-background-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;  
+  margin-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  }
+
+.icon-antenna::before {
+  background-image: url(../images/antenna\ 1.svg);
+  }
+.icon-clock::before {
+  background-image: url(../images/clock\ 1.svg);
+}
+.icon-diagram::before {
+  background-image: url(../images/diagram\ 1.svg);
+  }
+.icon-austronavt::before {
+  background-image: url(../images/astronaut\ 1.svg);
+}
 .section-item-text {
     width: 270px;
     margin-right: 30px;
@@ -582,4 +610,6 @@ margin-right: 0;
 .icon-link:hover,
 .icon-link:focus {
   fill: var(--accent-color);
+}
+
 }
