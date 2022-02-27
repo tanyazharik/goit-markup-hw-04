@@ -627,6 +627,9 @@ ul {
 }
 .clients-logo {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
   margin-right: 30px;
   width: 170px;
   height: 92px;
@@ -640,7 +643,6 @@ ul {
 
 .link-client {
   display: flex;
-  background-position: center;
 }
 .link-client .logo-link:hover,
 .link-client .logo-link:focus {
@@ -678,6 +680,7 @@ ul {
   align-items: center;
   justify-content: center;
   fill: var(--title);
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
 
