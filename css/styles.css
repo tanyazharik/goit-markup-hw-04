@@ -496,14 +496,6 @@ ul {
   height: auto;
 }
 
-.work-list:hover {
-  box-shadow: 1px 4px 6px 0px #00000029;
-
-  box-shadow: 0px 4px 4px 0px #0000000f;
-
-  box-shadow: 0px 1px 1px 0px #0000001f;
-}
-
 .work-list {
   margin-right: 30px;
   margin-bottom: 30px;
@@ -708,4 +700,13 @@ ul {
 }
 .social-link-team:hover {
   fill: var(--title);
+}
+.card {
+  width: 370px;
+  border: 1px solid #eeeeee;
+  border-top: none;
+}
+.card:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
