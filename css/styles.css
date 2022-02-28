@@ -681,10 +681,6 @@ ul {
   display: flex;
 }
 
-.auto-link:hover .icon-link,
-.auto-link:focus .icon-link {
-  fill: var(--accent-color);
-}
 .logo-link {
   align-items: center;
   justify-content: center;
