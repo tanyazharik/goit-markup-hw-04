@@ -632,8 +632,8 @@ ul {
   justify-content: center;
 }
 
-.link-client .logo-link:hover,
-.link-client .logo-link:focus {
+.link-client:hover .logo-link,
+.link-client:focus .logo-link {
   fill: var(--accent-color);
 }
 .link-client:hover,
@@ -698,7 +698,8 @@ ul {
   align-items: center;
   justify-content: center;
 }
-.social-link-team:hover {
+.social-link-team:hover,
+.social-link-team:focus {
   fill: var(--title);
 }
 .card {
@@ -711,11 +712,11 @@ ul {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.auto-link:hover .icon-link,
-.auto-link:focus .icon-link {
-  fill: var(--accent-color);
-}
 .auto-link:hover,
 .auto-link:focus {
   color: var(--accent-color);
+}
+.auto-link:hover .icon-link,
+.auto-link:focus .icon-link {
+  fill: var(--accent-color);
 }
