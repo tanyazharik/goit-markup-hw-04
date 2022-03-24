@@ -701,6 +701,7 @@ ul {
 .social-link-team:hover,
 .social-link-team:focus {
   fill: var(--title);
+  background-color: var(--accent-color);
 }
 .card {
   width: 370px;
